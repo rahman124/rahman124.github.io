@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Aqib Rahman</title>
+        <link>https://rahman124.github.io/</link>
+        <description></description>
+        <generator>Hugo 0.83.1 https://gohugo.io/</generator>
+        
+            <language>en</language>
+        
+        
+            <managingEditor>rahman124@live.com (Aqib Rahman)</managingEditor>
+        
+        
+            <webMaster>rahman124@live.com (Aqib Rahman)</webMaster>
+        
+        
+        <lastBuildDate>Thu, 03 Jun 2021 00:08:42 &#43;0100</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://rahman124.github.io/rss.xml" />
+        
+        
+            <item>
+                <title>Mypost</title>
+                <link>https://rahman124.github.io/posts/mypost/</link>
+                <guid isPermaLink="true">https://rahman124.github.io/posts/mypost/</guid>
+                <pubDate>Sun, 30 May 2021 22:49:21 &#43;0100</pubDate>
+                
+                    <author>rahman124@live.com (Aqib Rahman)</author>
+                
+                
+                
+                    <description>&lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;
+&lt;h3 id=&#34;post&#34;&gt;Post&lt;/h3&gt;
+&lt;p&gt;Hello everyone
+&lt;img src=&#34;https://rahman124.github.io/images/testimg.png&#34; alt=&#34;test image&#34;&gt;
+&lt;img src = &#34;/images/testimg.png&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;echo hello world
+&lt;/code&gt;&lt;/pre&gt;</description>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://rahman124.github.io/categories/development/">development</category>
+                                
+                            
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://rahman124.github.io/tags/first/">first</category>
+                                
+                            
+                        
+                    
+                
+            </item>
+        
+    </channel>
+</rss>
