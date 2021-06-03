@@ -14,11 +14,11 @@
 
     <title>Mypost | Aqib Rahman</title>
 
-    <link rel="stylesheet" href="/css/meme.min.307fb94e25750497f7e21890b008e01f9915c49c30626cf7cc1faac091ee3e75.css"/>
+    <link rel="stylesheet" href="/css/meme.min.e04830ed7dcdc4e7062ff711b5f8d2c01abad72e46a6c7fde9d99ac9e7e18088.css"/>
 
     
     
-        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/js/meme.min.89cea82403035720e14189c381a848b4e61f7f7397368663d7c465725e7eb1a1.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js" defer></script><script src="/js/meme.min.cd7fa3dc30403494f705af01356ee7df0d7fd6de1b87e15b04331acb07efd20c.js"></script>
 
     
 
@@ -410,6 +410,25 @@
 
 
         
+    
+
+        
+            <div class="load-comments">
+                <div id="load-comments">Load Comments?</div>
+            </div>
+        
+
+        
+
+        
+
+        
+            <div id="utterances"></div>
+        
+
+        
+    
+
 
 
     </div>
@@ -456,6 +475,42 @@
 
 
 
+
+    
+
+        
+
+        
+
+        
+            <script>
+    function loadComments() {
+        (function() {
+            var utterances = document.getElementById("utterances");
+            var script = document.createElement('script');
+            script.src = 'https://utteranc.es/client.js';
+            script.async = true;
+            script.crossOrigin = 'anonymous';
+            script.setAttribute('repo', 'rahman124\/rahman124.github.io');
+            script.setAttribute('issue-term', 'pathname');
+            const isDark = getCurrentTheme() === 'dark';
+        if (isDark) {
+            script.setAttribute('theme', 'photon-dark');
+        } else {
+            script.setAttribute('theme', 'github-light');
+        }
+            
+                script.setAttribute('label', 'Comment');
+            
+            utterances.appendChild(script);
+        })();
+    }
+</script>
+        
+
+        
+
+    
 
 
 
