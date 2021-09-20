@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Aqib Rahman</title>
-    <link>https://rahman124.github.io/posts/</link>
-    <description>Recent content in Posts on Aqib Rahman</description>
+    <title>kubernetes on Aqib Rahman</title>
+    <link>https://rahman124.github.io/tags/kubernetes/</link>
+    <description>Recent content in kubernetes on Aqib Rahman</description>
     <image>
       <url>https://rahman124.github.io/papermod-cover.png</url>
       <link>https://rahman124.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 17 Sep 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://rahman124.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Sep 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://rahman124.github.io/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Set up Traefik Kubernetes Ingress for HTTP and HTTPS with redirect to HTTPS</title>
       <link>https://rahman124.github.io/posts/traefik-https-redirect/</link>
@@ -19,16 +19,6 @@
       <description>When services are deployed to kubernetes, it is necessary to configure how to expose and redirect traffic to them from outside the cluster.
 In this blog post I will show you how you can set up Traefik ingress routers to redirect HTTP traffic to HTTPS.
 This post assumes you have Traefik deployed in your cluster with the kubernetes ingress and kubernetescrd provider, as well as the TLS certificate you want to use loaded on to it.</description>
-    </item>
-    
-    <item>
-      <title>Configure a certificate-based connector to relay email from Exim to Office 365</title>
-      <link>https://rahman124.github.io/posts/exim-relay-connector/</link>
-      <pubDate>Sat, 17 Jul 2021 11:30:03 +0000</pubDate>
-      
-      <guid>https://rahman124.github.io/posts/exim-relay-connector/</guid>
-      <description>In this blog post I will show you how you can send your emails from Exim to Office 365 via a TLS connector.
-I will discuss the steps that I took to configure this in our environment so that you may have an easier time if you decide to go down the same route aswell. Prerequisites In the Exchange admin center, you will need to have your TLS certificate domain configured as an accepted domain in your Office 365 organisation.</description>
     </item>
     
   </channel>

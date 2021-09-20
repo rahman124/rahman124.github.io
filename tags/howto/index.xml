@@ -9,7 +9,18 @@
       <link>https://rahman124.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 17 Jul 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://rahman124.github.io/tags/howto/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Sep 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://rahman124.github.io/tags/howto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Set up Traefik Kubernetes Ingress for HTTP and HTTPS with redirect to HTTPS</title>
+      <link>https://rahman124.github.io/posts/traefik-https-redirect/</link>
+      <pubDate>Fri, 17 Sep 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://rahman124.github.io/posts/traefik-https-redirect/</guid>
+      <description>When services are deployed to kubernetes, it is necessary to configure how to expose and redirect traffic to them from outside the cluster.
+In this blog post I will show you how you can set up Traefik ingress routers to redirect HTTP traffic to HTTPS.
+This post assumes you have Traefik deployed in your cluster with the kubernetes ingress and kubernetescrd provider, as well as the TLS certificate you want to use loaded on to it.</description>
+    </item>
+    
     <item>
       <title>Configure a certificate-based connector to relay email from Exim to Office 365</title>
       <link>https://rahman124.github.io/posts/exim-relay-connector/</link>
